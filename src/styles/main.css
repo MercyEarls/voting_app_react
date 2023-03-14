@@ -1,30 +1,32 @@
-.container{
+.container {
     /* display: flex; */
     text-align: center;
     align-items: center;
     /* width: 90%; */
 }
-.allInput{
-    border-radius: 15px;
+
+.allInput {
+    border-radius: 10px;
     margin: 20px;
     width: 90%;
     /* border: 2px solid black; */
     height: 50px;
     background-color: #e9e9e9;
 }
-h1{
+
+h1 {
     font-size: 2rem;
     font-weight: bold;
     text-align: left;
     margin-left: 30px;
 }
 
-p{
+p {
     text-align: left;
     margin-left: 30px;
 }
 
-.allBtn{
+.allBtn {
     background-color: green;
     color: white;
     width: 90%;
@@ -47,7 +49,7 @@ p{
     border-radius: 50%;
 }
 
-.main{
+.main {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -58,13 +60,40 @@ p{
     height: 75px;
 }
 
-.sub{
+.sub {
     padding-left: 20px;
 }
 
-.img2{
+.img2 {
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
+.label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.similar {
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+.welcome {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+.f-inner11 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: green;
+
+}

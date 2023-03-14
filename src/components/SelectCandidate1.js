@@ -2,7 +2,7 @@ import '../styles/main.css'
 import logo from '../assests/Images/05.jpg'
 import { Link } from 'react-router-dom'
 
-const PvcStatus3 = ()=>{
+const SelectCandidate1 = ()=>{
     return(
         <div className='container h-screen'>
                 <h1 className='pt-50'>PVC Status</h1>
@@ -21,7 +21,7 @@ const PvcStatus3 = ()=>{
                 <p className=''>Change collection center? <span onclick="redirect('resend.html')"
                     className="greene font-bold text-green-700">Resend</span></p>
                 <div className='pt-20'>
-                <Link to='/'>
+                <Link to='/verification'>
                 <button className='allBtn allInput mb-0 pb-0'>Close <i className="fas fa-arrow-right" /></button>
                 </Link>
                    </div> 
@@ -31,4 +31,4 @@ const PvcStatus3 = ()=>{
     )
 }
 
-export default PvcStatus3;
+export default SelectCandidate1;

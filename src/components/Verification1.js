@@ -1,7 +1,7 @@
 import '../styles/main.css'
 import { Link } from 'react-router-dom'
 
-const PvcStatus2 = ()=>{
+const Verification1 = ()=>{
     return(
         <div className='container h-screen'>
                 <h1 className='pt-50'>Check Your PVC Status</h1>
@@ -12,7 +12,7 @@ const PvcStatus2 = ()=>{
 
                 <br/>
 
-                <Link to='/pvcready'>
+                <Link to='/confirmcandidate'>
                 <button className='allBtn allInput mb-0 pb-0'>Check Status <i className="fas fa-arrow-right" /></button>
                 </Link>
 
@@ -23,4 +23,4 @@ const PvcStatus2 = ()=>{
     )
 }
 
-export default PvcStatus2;
+export default Verification1;
